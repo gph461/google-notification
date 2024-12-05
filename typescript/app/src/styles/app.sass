@@ -1,0 +1,181 @@
+@import "./border"
+
+.web
+  width: 1200px
+  margin: auto
+
+.mobile
+  width: 100%
+
+.container
+  position: relative
+  padding: 24px
+
+.container-mobile
+  padding: 3vw
+
+.relative-position
+  position: relative
+
+.full-width
+  width: 100% !important
+
+.full-height
+  height: 100% !important
+
+.fit
+  width: 100% !important
+  height: 100% !important
+
+.nowrap
+  white-space: nowrap
+
+.absolute-full
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+.fixed-full
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+.absolute-center
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+
+.absolute-top-left
+  position: absolute
+  left: 0
+  top: 0
+
+.absolute-top-right
+  position: absolute
+  right: 0
+  top: 0
+
+.absolute-center-right
+  position: absolute
+  right: 0
+  top: 50%
+  transform: translateY(-50%)
+
+.absolute-bottom-left
+  position: absolute
+  left: 0
+  bottom: 0
+
+.absolute-bottom-right
+  position: absolute
+  right: 0
+  bottom: 0
+
+.text-center
+  text-align: center
+
+.text-right
+  text-align: right
+
+.text-capitalise
+  text-transform: capitalize
+
+.z-front
+  z-index: 500
+
+.z-middle
+  z-index: 1000
+
+.z-top
+  z-index: 3000
+
+.z-max
+  z-index: 9999
+
+.clickable
+  cursor: pointer
+
+.no-pointer-events
+  pointer-events: none
+
+.invisible
+  visibility: hidden
+
+.copy-input
+  padding: 4px 11px
+  display: flex
+  justify-content: space-between
+  @extend .br-sm
+
+.flex-vertical
+  display: flex
+  flex-direction: column
+// ant layout
+
+.ant-layout-header
+  padding-inline: 0px !important
+
+// ant form item
+.ant-form-item
+  margin-bottom: 15px
+
+.ant-form-item-label
+  font-weight: bold
+  padding: 0 0 4px !important
+
+.ant-input-number
+  width: 100%
+
+.ant-select-dropdown
+  z-index: 1060
+
+// glass effect #can add your own background-color
+.glass-effect
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+  backdrop-filter: blur(3px)
+  -webkit-backdrop-filter: blur(5px)
+
+.my-anchor
+  display: block
+  position: relative
+  top: -150px
+  visibility: hidden
+
+.my-anchor-first
+  display: block
+  position: relative
+  top: -200px
+  visibility: hidden
+
+.text-caption
+  font-size: 12px !important
+  color: var(--gray-color)
+
+.text-gray
+  color: var(--gray-color)
+
+.text-transform
+  text-transform: capitalize
+
+.ant-typography
+  h1,h2,h3,h4,h5
+    font-weight: 700
+
+.ck-powered-by
+  display: none
+
+::-webkit-scrollbar
+  width: 6px
+  height: 6px
+
+::-webkit-scrollbar-track
+  background-color: var(--gray-3-color)
+
+::-webkit-scrollbar-thumb
+  background-color: var(--gray-color)
+  border-radius: 4px
